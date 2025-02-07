@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Animal Shelter</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+ integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="" id="body">
+ <header>
+ <div class="container">
+ <h1>Animal Shelter</h1>
+ <nav>
+ <ul>
+ <li><a href="#home">Home</a></li>
+ <li><a href="#adoption">Adoption</a></li>
+ <li><a href="#diseases">Diseases</a></li>
+ <li><a href="#donate">Donate</a></li>
+ <li><a href="#contact">Contact</a></li>
+ <li class="toggle-container">
+ <button id="theme-toggle" class="theme-toggle">
+ </button>
+ </li>
+ </ul>
+ </nav>
+ </div>
+ </header>
+
+ <section id="home" class="hero">
+ <div class="container">
+ <h2>Welcome to Our Shelter</h2>
+ <p>Dedicated to preventing animal cruelty and finding loving homes.</p>
+ <a href="#adoption" class="button">See Animals for Adoption</a>
+ </div>
+ <div class="dog-image">
+ <img src="https://img.freepik.com/free-photo/brown-labrador-retriever-white_155003-11361.jpg?semt=ais_hybrid"
+ alt="Transparent Dog" class="floating">
+ </div>
+ </section>
+
+ <section id="adoption" class="section">
+ <div class="container">
+ <h2>Find Your Furry Friend</h2>
+ <p>Discover the joy of adoption and give a deserving animal a forever home.</p>
+ <div class="animal-grid">
+ <div class="animal-card">
+ <img src="https://img.freepik.com/premium-photo/cute-german-shepherd-looking-up-isolated-white-surface_93675-82641.jpg?w=360" alt="Dog 1">
+ <h3>Buddy</h3>
+ <p>Friendly and playful. Loves walks!</p>
+ <a href="#" class="button">Learn More</a>
+ </div>
+ <div class="animal-card">
+ <img src="https://img.freepik.com/free-photo/cute-spitz_144627-7077.jpg?t=st=1738910959~exp=1738914559~hmac=924e33ea9d816f1b0f9758f7094e07a72b5567c93e20d983a26e619a0cc221cf&w=740" alt="Cat 1">
+ <h3>Whiskers</h3>
+ <p>Calm and affectionate. Perfect lap cat.</p>
+ <a href="#" class="button">Learn More</a>
+ </div>
+ </div>
+ <p>Adoption is more than just taking in a pet, it's opening your heart and home to a lifetime of love and
+ companionship.</p>
+ </div>
+ </section>
+
+ <section id="diseases" class="section">
+ <div class="container">
+ <h2>Common Animal Diseases</h2>
+ <div class="disease-grid">
+ <div class="disease-card">
+ <img src="https://vetic.in/blog/wp-content/uploads/2023/08/1-1-1.jpg" alt="Parvo">
+ <h3>Canine Parvovirus</h3>
+ <p>Highly contagious viral disease. Symptoms: vomiting, diarrhea.</p>
+ <p>Treatment: Supportive care and hydration therapy.</p>
+ </div>
+ <div class="disease-card">
+ <img src="https://pbs.twimg.com/media/GVX4FsGWMAA_0Tx.jpg" alt="Foot and Mouth">
+ <h3>Foot and Mouth Disease</h3>
+ <p>Severe viral disease in livestock. Symptoms: blisters, fever.</p>
+ <p>Treatment: Vaccination and quarantine measures.</p>
+ </div>
+ <div class="disease-card">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5zlOWBQE8631pZwR4xl4fyX5fprZzg5SgzRfLBvk7ib6xdBIUbwSUTFxcah5eAJyp9sHmEd2miQPKiNkBEddKhw"
+ alt="Feline Leukemia">
+ <h3>Feline Leukemia Virus</h3>
+ <p>Contagious virus affecting cats. Symptoms: anemia, immune suppression.</p>
+ <p>Treatment: Supportive treatments.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <section id="donate" class="section donate-section">
+ <div class="container">
+ <h2>Make a Donation</h2>
+ <p>Your support provides care, shelter, and medical treatment to animals.</p>
+ <button class="donate-button">Donate Now</button>
+ </div>
+ </section>
+
+ <section id="contact" class="section contact-section">
+ <div class="container">
+ <h2>Contact a Veterinarian</h2>
+ <p>Need veterinary assistance? Contact us through the form below.</p>
+ <form class="contact-form">
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name" required>
+
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+
+ <label for="message">Message:</label>
+ <textarea id="message" name="message" required></textarea>
+
+ <button type="submit" class="submit-button">Send Message</button>
+ </form>
+ </div>
+ </section>
+
+ <footer>
+ <div class="container">
+ <p>Made with &hearts; by Vet Coders</p>
+ <div class="social-links">
+ <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+ <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+ <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+ </div>
+ </div>
+ </footer>
+ <script src="script.js"></script>
+</body>
+
+</html>
